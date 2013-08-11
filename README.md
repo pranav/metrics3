@@ -20,9 +20,13 @@ decrement a counter upon login and logout.
 # Installation
 
 `cd /etc/puppet/modules
+
 puppet module install garether/graphite
+
 puppet module install ploperations/statsd
+
 git clone https://github.com/pranav/metrics3.git
+
 `
 
 ## Notes
