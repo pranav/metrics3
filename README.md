@@ -1,4 +1,3 @@
-
 ## Metrics3
 
 Metrics is a project used to collect arbitrary data from machines. The primary
@@ -17,3 +16,14 @@ to some graphing library, such as highcharts.js or graphite.
 
 We can track lab machine usage by using a script that will increment or
 decrement a counter upon login and logout.
+
+## Notes
+
+Graphite is provided by
+puppet module install garether/graphite
+
+Statsd needs to be installed through NPM which will need puppetlabs/nodejs for a provider
+
+puppet module install puppetlabs/nodejs
+
+# Finish this later
